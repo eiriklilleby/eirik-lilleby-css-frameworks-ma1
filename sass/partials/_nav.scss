@@ -1,0 +1,28 @@
+nav {
+  background: $color-white;
+
+  .navbar-collapse {
+    flex-grow: unset;
+  }
+  .nav-item {
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    color: $color-text;
+    font-family: $font-secondary;
+
+    &:hover {
+      color: $color-logo;
+    }
+  }
+
+  .active {
+    color: $color-crimson !important;
+  }
+
+  .navbar-brand {
+    color: $color-logo !important;
+    font-size: 36px;
+  }
+}
